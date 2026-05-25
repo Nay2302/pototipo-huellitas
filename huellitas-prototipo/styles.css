@@ -1,0 +1,30 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; background: #f6f6f6; color: #333; }
+.header { position: sticky; top: 0; z-index: 10; background: #ffffff; display: flex; justify-content: space-between; align-items: center; padding: 15px 30px; box-shadow: 0 2px 8px rgba(0,0,0,.1); }
+.logo { font-weight: bold; font-size: 22px; color: #4d7c59; }
+.nav a { margin: 0 8px; text-decoration: none; color: #333; font-weight: bold; }
+.nav a:hover { color: #4d7c59; }
+.hero { min-height: 420px; display: flex; align-items: center; justify-content: center; text-align: center; background: linear-gradient(rgba(0,0,0,.35), rgba(0,0,0,.35)), url('https://images.unsplash.com/photo-1450778869180-41d0601e046e?auto=format&fit=crop&w=1400&q=80'); background-size: cover; background-position: center; color: white; padding: 30px; }
+.hero h1 { font-size: 46px; margin-bottom: 10px; }
+.hero p { font-size: 20px; }
+.btn, button { background: #4d7c59; color: white; border: none; padding: 10px 18px; border-radius: 8px; cursor: pointer; text-decoration: none; display: inline-block; }
+button:hover, .btn:hover { background: #355a3f; }
+main { max-width: 1100px; margin: auto; padding: 25px; }
+.card-section, .slider-section { background: white; margin: 25px auto; padding: 25px; border-radius: 15px; box-shadow: 0 2px 10px rgba(0,0,0,.08); max-width: 1100px; }
+h2 { color: #4d7c59; }
+.slider { height: 150px; display: flex; align-items: center; justify-content: center; background: #eaf3ed; border-radius: 12px; font-size: 28px; font-weight: bold; text-align: center; }
+.slide { display: none; }
+.slide.active { display: block; }
+.mapa { height: 180px; border: 2px dashed #777; display: flex; align-items: center; justify-content: center; border-radius: 12px; background: #fafafa; }
+.pets-grid, .products-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 18px; }
+.pet, .product { border: 1px solid #ddd; border-radius: 12px; padding: 15px; text-align: center; background: #fafafa; }
+.pet-img, .product-img { font-size: 45px; background: #eaf3ed; border-radius: 12px; padding: 20px; }
+.stars { font-size: 35px; color: #d89b00; letter-spacing: 5px; }
+input, textarea { width: 100%; padding: 12px; margin: 8px 0; border: 1px solid #ccc; border-radius: 8px; font-family: Arial, sans-serif; }
+textarea { min-height: 100px; }
+.chat { position: fixed; right: 20px; bottom: 20px; width: 260px; background: white; border-radius: 15px; box-shadow: 0 3px 12px rgba(0,0,0,.2); padding: 15px; z-index: 9; }
+.chat h3 { margin-top: 0; color: #4d7c59; }
+.chat-body { background: #eaf3ed; padding: 10px; border-radius: 8px; margin-bottom: 8px; }
+.footer { text-align: center; background: #333; color: white; padding: 25px; }
+.footer a { color: #d6f2db; }
+@media (max-width: 800px) { .header { flex-direction: column; } .nav { margin-top: 10px; text-align: center; } .nav a { display: inline-block; margin: 5px; } .hero h1 { font-size: 32px; } .chat { position: static; width: auto; margin: 20px; } }

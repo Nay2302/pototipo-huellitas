@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Huellitas de Esperanza</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="logo">🐾 Huellitas de Esperanza</div>
+    <nav class="nav">
+      <a href="#inicio">Inicio</a>
+      <a href="#quienes">¿Quiénes somos?</a>
+      <a href="#mision">Misión</a>
+      <a href="#vision">Visión</a>
+      <a href="#adopcion">Adopción</a>
+      <a href="#tienda">Tiendita</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <section id="inicio" class="hero">
+    <div>
+      <h1>Adopta, ayuda y cambia una vida</h1>
+      <p>Sitio web para apoyar la adopción de animales en situación vulnerable.</p>
+      <a href="#adopcion" class="btn">Ver mascotas</a>
+    </div>
+  </section>
+
+  <section class="slider-section">
+    <h2>Animales y servicios destacados</h2>
+    <div class="slider">
+      <div class="slide active">🐶 Adopción de perros rescatados</div>
+      <div class="slide">🐱 Adopción de gatos vulnerables</div>
+      <div class="slide">🧼 Baño solidario para mascotas</div>
+      <div class="slide">🥣 Donación de alimento</div>
+    </div>
+  </section>
+
+  <main>
+    <section id="quienes" class="card-section">
+      <h2>¿Quiénes somos?</h2>
+      <p>Somos una organización dedicada al rescate, cuidado y difusión de animales en situación vulnerable. Nuestro objetivo es conectar mascotas rescatadas con familias responsables.</p>
+    </section>
+
+    <section id="mision" class="card-section">
+      <h2>Misión</h2>
+      <p>Promover la adopción responsable mediante una plataforma accesible que informe, oriente y facilite el contacto entre refugios y adoptantes.</p>
+    </section>
+
+    <section id="vision" class="card-section">
+      <h2>Visión</h2>
+      <p>Ser un sitio web reconocido por apoyar el bienestar animal, reducir el abandono y fomentar una cultura de respeto hacia los animales.</p>
+    </section>
+
+    <section id="politicas" class="card-section">
+      <h2>Políticas de calidad</h2>
+      <ul>
+        <li>Brindar información clara y actualizada sobre cada mascota.</li>
+        <li>Promover adopciones responsables y seguras.</li>
+        <li>Atender solicitudes con respeto y transparencia.</li>
+        <li>Impulsar campañas de apoyo y donación.</li>
+      </ul>
+    </section>
+
+    <section id="ubicacion" class="card-section">
+      <h2>Ubicación física</h2>
+      <p>Guadalajara, Jalisco, México.</p>
+      <div class="mapa">Mapa de ubicación del refugio</div>
+    </section>
+
+    <section id="adopcion" class="card-section">
+      <h2>Mascotas en adopción</h2>
+      <div class="pets-grid">
+        <article class="pet"><div class="pet-img">🐶</div><h3>Luna</h3><p>2 años</p><button>Solicitar adopción</button></article>
+        <article class="pet"><div class="pet-img">🐱</div><h3>Nala</h3><p>1 año</p><button>Solicitar adopción</button></article>
+        <article class="pet"><div class="pet-img">🐶</div><h3>Max</h3><p>3 años</p><button>Solicitar adopción</button></article>
+      </div>
+    </section>
+
+    <section id="valoracion" class="card-section">
+      <h2>Valoración del servicio</h2>
+      <p>Califica nuestro servicio de adopción:</p>
+      <div class="stars">★★★★★</div>
+      <textarea placeholder="Escribe tu opinión"></textarea>
+      <button>Enviar valoración</button>
+    </section>
+
+    <section id="tienda" class="card-section">
+      <h2>Tiendita virtual solidaria</h2>
+      <p>Productos simbólicos para apoyar a los animales rescatados.</p>
+      <div class="products-grid" id="products"></div>
+    </section>
+
+    <section id="faq" class="card-section">
+      <h2>Preguntas frecuentes</h2>
+      <details open>
+        <summary>¿La adopción tiene costo?</summary>
+        <p>No tiene costo, pero se solicita compromiso responsable y seguimiento.</p>
+      </details>
+      <details>
+        <summary>¿Puedo donar alimento?</summary>
+        <p>Sí, se aceptan donaciones de alimento, cobijas, juguetes y artículos de limpieza.</p>
+      </details>
+      <details>
+        <summary>¿Puedo ser voluntario?</summary>
+        <p>Sí, puedes registrarte mediante el formulario de contacto.</p>
+      </details>
+    </section>
+
+    <section id="contacto" class="card-section">
+      <h2>Formulario de contáctame</h2>
+      <form class="contact-form">
+        <input type="text" placeholder="Nombre completo" required>
+        <input type="email" placeholder="Correo electrónico" required>
+        <input type="tel" placeholder="Teléfono">
+        <textarea placeholder="Mensaje"></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <aside class="chat">
+    <h3>Chat</h3>
+    <div class="chat-body">Hola, ¿en qué podemos ayudarte?</div>
+    <input type="text" placeholder="Escribe un mensaje">
+    <button>Enviar</button>
+  </aside>
+
+  <footer class="footer">
+    <p>Redes sociales:</p>
+    <a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">TikTok</a>
+    <p>© 2026 Huellitas de Esperanza</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
